@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib as mpl
+mpl.use('Agg')
 import matplotlib.pyplot as plt
 import os
 from scipy import special, optimize, integrate, stats
@@ -37,4 +39,3 @@ rc('legend',**{'fontsize':'18'})
 import basic_functions
 reload(basic_functions)
 from basic_functions import *
-
